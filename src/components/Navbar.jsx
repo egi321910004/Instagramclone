@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="h-16 bg-white border-b border-gray-primary mb-8">
+    <div className="h-16 bg-white border-b border-gray-primary">
       <div className="container mx-auto max-w-screen-lg h-full">
         <div className="flex justify-between h-full">
           <h1 className=" flex items-center">
@@ -43,7 +43,7 @@ export default function Navbar() {
                   fillRule="evenodd"
                 ></path>
               </svg>
-              <div className="ml-3 flex items-center">
+              <div className="ml-5 flex items-center">
                 <svg
                   aria-label="New Post"
                   color="#262626"
@@ -84,7 +84,7 @@ export default function Navbar() {
                     y2="17.455"
                   ></line>
                 </svg>
-                <div className="ml-3 flex items-center">
+                <div className="ml-5 flex items-center">
                   <svg
                     aria-label="Find People"
                     color="#262626"
@@ -118,7 +118,7 @@ export default function Navbar() {
                     ></circle>
                   </svg>
                 </div>
-                <div className="ml-3">
+                <div className="ml-5">
                   <svg
                     aria-label="Activity Feed"
                     color="#262626"
