@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FiturIg() {
   return (
-    <div>
+    <div className="bg-gray-100 bg-opacity-25">
       <ul
         className="flex items-center justify-center space-x-12 
                     uppercase tracking-widest font-semibold text-xs text-gray-600
