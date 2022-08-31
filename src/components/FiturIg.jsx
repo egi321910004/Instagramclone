@@ -4,11 +4,11 @@ export default function FiturIg() {
   return (
     <div>
       <ul
-        className="flex items-center justify-center space-x-12 mt-1
+        className="flex items-center justify-center space-x-12 
                     uppercase tracking-widest font-semibold text-xs text-gray-600
-                    border-t"
+                    border-t "
       >
-        <li className="flex items-center md:border-t md:border-gray-700 md:-mt-px md:text-gray-700">
+        <li className="flex items-center">
           <button className="flex items-center p-3" href="#">
             <svg
               aria-label=""
