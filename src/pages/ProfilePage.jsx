@@ -1,5 +1,6 @@
 import React from "react";
 import FiturIg from "../components/FiturIg";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import PostIg from "../components/PostIg";
 import Profiledeskripsi from "../components/Profiledeskripsi";
@@ -11,6 +12,7 @@ export default function ProfilePage() {
       <Profiledeskripsi />
       <FiturIg />
       <PostIg />
+      <Footer />
     </div>
   );
 }
