@@ -3,7 +3,7 @@ import React from "react";
 export default function Profiledeskripsi() {
   return (
     <div className="bg-gray-100 bg-opacity-25 h-full">
-      <div className="w-8/12 mx-auto mb-8">
+      <div className="w-8/12 mx-auto">
         <div className="flex flex-wrap items-center p-8">
           {/* Foto Profile */}
           <img
@@ -45,6 +45,7 @@ export default function Profiledeskripsi() {
             <div class="hidden md:block">
               <h1 class="font-semibold text-1xl">Egi Rizki Ramadani</h1>
               <span>React and React Navtive</span>
+              <p className="text-blue-800">#Hacktiv8 #MSIB3</p>
               <p>Quiz 4 </p>
             </div>
           </div>
