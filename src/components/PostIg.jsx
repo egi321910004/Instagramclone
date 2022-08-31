@@ -2,13 +2,29 @@ import React from "react";
 
 export default function PostIg() {
   return (
-    <div className="flex flex-wrap mx-3">
-      <div className="w-1/3 p-px px-3">
-        <article class="flex mt-5 items-center">
-          <img src="/images/eginew.png" alt="" className="w-48" />
-          <img src="/images/eginew.png" alt="" className="w-48" />
-          <img src="/images/eginew.png" alt="" className="w-48" />
-        </article>
+    <div className="bg-gray-100 bg-opacity-25">
+      <div class="container grid grid-cols-3 gap-2 mx-auto">
+        <div class="w-full ">
+          <img
+            className="object-cover w-full h-1/2"
+            src="/images/egi1.jpeg"
+            alt="profile"
+          />
+        </div>
+        <div class="w-full ">
+          <img
+            className="object-cover w-full h-1/2"
+            src="/images/egi3.jpg"
+            alt="profile"
+          />
+        </div>
+        <div class="w-full ">
+          <img
+            className="object-cover w-full h-1/2"
+            src="/images/egiegi.jpeg"
+            alt="profile"
+          />
+        </div>
       </div>
     </div>
   );
