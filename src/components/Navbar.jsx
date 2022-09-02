@@ -1,25 +1,14 @@
 import React from "react";
+import Instagramlogo from "./atoms/Instagramlogo";
+import Searchbox from "./atoms/Searchbox";
 
 export default function Navbar() {
   return (
     <div className="h-16 bg-white border-b border-gray-primary">
       <div className="container mx-auto max-w-screen-lg h-full">
         <div className="flex justify-between h-full">
-          <h1 className=" flex items-center">
-            <img
-              class="h-10 "
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/150px-Instagram_logo.svg.png"
-              alt="instagram"
-            />
-          </h1>
-          <div className="flex items-center w-full">
-            <input
-              className="ml-72 search-bar max-w-md border rounded-md bg-gray-200 px-5 py-1
-             outline-none focus:border-gray-400"
-              type="search"
-              placeholder="Search"
-            ></input>
-          </div>
+          <Instagramlogo />
+          <Searchbox />
           <div className="flex items-center mr-5">
             <svg
               aria-label="Home"
